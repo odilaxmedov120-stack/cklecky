@@ -68,7 +68,7 @@ body {
 .hero {
     padding-top: 120px;
     padding-bottom: 130px;
-    background-image: url(./assets/images/Frame\ \(3\).png);
+    background-image: url(./assets/images/hero.png);
     background-repeat: no-repeat;
     background-position: calc(50% + 200px);
     justify-content: center;
@@ -106,4 +106,76 @@ body {
 main {
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+
+.about {
+    padding-top: 120px;
+    background-color: #fff;
+}
+
+
+.about__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.about__content {
+    width: 393px;
+}
+
+
+.about__tittle {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0%;
+    margin-bottom: 27px;
+}
+
+
+.about__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27;
+    letter-spacing: 0%;
+}
+
+.about__wrapper:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.partners {
+    padding-top: 113px;
+    padding-bottom: 120px;
+    background-color: #fff;
+}
+
+
+.partners__tittle {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+
+.partners__list {
+    display: flex;
+    justify-content: center;
+    gap: 87px;
+    align-items: center;
+}
+
+
+.partners__link img {
+    width: 110px;
+
 }
