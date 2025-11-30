@@ -142,7 +142,7 @@ main {
 .about__desc {
     font-weight: 400;
     font-size: 18px;
-    line-height: 27;
+    line-height: 27px;
     letter-spacing: 0%;
 }
 
@@ -178,4 +178,48 @@ main {
 .partners__link img {
     width: 110px;
 
+}
+
+
+.production {
+    padding-top: 66px;
+    padding-bottom: 120px;
+}
+
+
+.production__tittle {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 73px;
+    color: #fff;
+}
+
+
+.production__list {
+    display: flex;
+    justify-content: center;
+}
+
+
+.production__item {
+    width: 295px;
+}
+
+
+.production__img {
+    display: block;
+    margin: 0 auto 28px;
+}
+
+
+.production__subtittle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
 }
