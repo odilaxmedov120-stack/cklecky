@@ -223,3 +223,36 @@ main {
     text-align: center;
     color: #fff;
 }
+
+
+
+.employees {
+    padding-top: 119px;
+    padding-bottom: 135px;
+    background-color: #F2EFE6;
+}
+
+
+.employees__content {
+    width: 760px;
+    margin: 0 auto;
+}
+
+
+.employees__tittle {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+
+.employees__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+}
